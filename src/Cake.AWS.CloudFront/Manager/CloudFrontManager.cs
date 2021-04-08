@@ -124,6 +124,10 @@ namespace Cake.AWS.CloudFront
                 {
                     paths.Add("/" + item);
                 }
+                else
+                {
+                    paths.Add(item);
+                }
             }
 
 
